@@ -1,0 +1,88 @@
+a,
+div,
+li,
+section,
+ul,
+input,
+header,
+main,
+footer,
+form,
+span {
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+li,
+a {
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+span {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #ffffff;
+  width: 100%;
+  max-width: 1536px;
+  font-size: 16px;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 1);
+  
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1448px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dflex {
+  display: flex;
+}
+
+.dflex_w{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dnone {
+  display: none;
+}
+
+.btn {
+  background: rgba(210, 0, 28, 1);
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;
+}
+
+.arrow {
+    width: 6px;
+    height: 2px;
+	background: rgba(34, 34, 34, 1);
+	border-radius: 2px;
+  }
+
+  a:hover{
+    color:rgba(210, 0, 28, 1);
+  }
+
+  .slide{
+    transition: all 1.5s ease-in-out;
+  }
