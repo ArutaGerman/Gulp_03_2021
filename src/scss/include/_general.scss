@@ -32,14 +32,11 @@ span {
   margin: 0;
 }
 
-html{
-  width:100vw;
-}
-
 body {
   background: #ffffff;
   width: 100%;
   max-width: 1536px;
+  min-height: 100vh;
   font-size: 16px;
   margin: 0 auto;
   color: rgba(0, 0, 0, 1);
